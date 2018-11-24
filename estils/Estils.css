@@ -1,0 +1,113 @@
+﻿* {
+	box-sizing: border-box; /* Les mides inclouen 'padding', 'border' i el 'content' (no el margin) */
+	
+}
+header, footer {
+	background-color: grey;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	font-family: sans-serif;
+	clear: both;
+}
+
+#content {
+	width: 100%;
+	clear: ; /* sense elements flotats a la dreta i a l'esquerra */
+	display: table; /* el div es comporta com una taula:  'block', 'inline' */
+	background-color: #211f1f;
+	font-family: sans-serif;
+	color: white;
+}
+nav {
+	width: 50%;
+	float: right;
+	padding: 15px;
+	font-family: sans-serif;
+}
+#section {
+	padding: 10px;
+	float: right;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	padding: 15px;
+	margin-bottom: 8px;
+	background-color: grey;
+	float: right;
+}
+
+nav li:hover {
+	background-color: #fb4b2b;
+}
+table, td, th {
+	font-family: open sans;
+	background-color: #211f1f;
+	text-align: justify;
+	color: white;
+}
+td, th {
+	border: 2px solid ;
+    text-align: center;
+    padding: 15px;
+}
+#section {
+	float: right;
+	margin:0px 20px 0px;
+}
+#explicacion {
+	float: right;
+	margin-left:20%;
+	margin-right:20%;
+}
+#animes {
+	margin: 0px 200px 0px;
+}
+#akira {
+	padding: 5px;
+	float: left;
+	width: 100%;
+	text-align: justify;
+}
+#akira_tabla {
+	font-family: open sans;
+	background-color: #211f1f;
+	text-align: justify;
+	color: white;
+	width: 10%;
+	float: left;
+	padding: 5px;
+}
+.Curiosidades {
+	float: left;
+	text-align: justify;
+	font-family: sans-serif;
+	color: white;
+	padding: 5px;
+}
+.trailer_db {
+	float: right;
+}
+.dragon_ball_trailer {
+	float: right;
+	margin: 10px;
+	font-family: open sans;
+}
+.sao_trailer {
+	float: right;
+}
+	
+h2 {
+	font-family: open sans;
+	color: red;
+}
+p {
+	padding: 5px 10px 5px 10px;
+	line-height: 150%;
+}
+	
+	
